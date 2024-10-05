@@ -1,0 +1,37 @@
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px; /* Промежуток между элементами */
+  margin: 50px 2px; /* Отступ сверху и снизу */
+}
+
+.nav-item {
+  width: 121px; /* Ширина элемента навигации */
+}
+
+.nav-button {
+  border: none; /* Убираем рамку */
+  border-radius: 30px; /* Закругленные углы */
+  display: flex; /* Используем flex для центрирования контента */
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center; /* Центрируем по вертикали */
+  padding: 8px; /* Отступы внутри кнопки */
+  cursor: pointer; /* Указываем, что кнопка кликабельна */
+  transition: background-color 0.3s; /* Плавный переход для фона */
+}
+
+.active {
+  background-color: var(--orange); /* Цвет фона для активной кнопки */
+}
+
+.nav-img {
+  width: 40px; /* Пример ширины изображения */
+  height: auto; /* Авто-высота для сохранения пропорций */
+}
+
+.nav-text {
+  margin-left: 8px; /* Отступ слева от текста */
+  font-size: 16px; /* Размер шрифта */
+  font-weight: 600; /* Жирный шрифт */
+}

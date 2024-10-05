@@ -1,0 +1,30 @@
+.header{
+  background: url('../../images/main/bg.png') center center / cover no-repeat;
+  width: 100vw;
+  height: 80vh;
+  margin-left: calc(-50vw + 50%);
+  margin-top: calc(-70vh + 30%);
+
+}
+.header-img{
+  display: block;
+  margin: 0 auto;
+  padding: 30vh 0 24px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content-img{}
+.header-content-text{
+}
+.header-content-title{
+  font-size: 50px;
+  line-height: 60px;
+}
+.header-content-paragraph{
+  margin-top: 52px;
+  color: var(--white);
+}
