@@ -1,0 +1,43 @@
+.basket-item-total {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.basket-total {
+  color: var(--orange);
+  text-align: left;
+}
+.basket-item{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px 0;
+}
+.basket-img{
+  padding: 2%;
+  width: 40%;
+  height: 100px;}
+.basket-item-content{
+  margin-left: 5px;
+}
+.basket-title{
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+.basket-weight{
+  font-size: 0.7em;
+}
+.basket-item-counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  gap:  10px;
+}
+.basket-item-btn{
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}

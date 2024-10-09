@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px; /* Промежуток между элементами */
-  margin: 50px 2px; /* Отступ сверху и снизу */
+  margin: 50px 2px 20px; /* Отступ сверху и снизу */
 }
 
 .nav-item {

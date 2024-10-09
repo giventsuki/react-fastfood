@@ -6,12 +6,12 @@ import vechnayaClassika from '../../images/burgers/vechnaya-classika.jpg';
 import italyanski from '../../images/burgers/italyanski.jpg';
 
 const burgers = [
-  { src: myasnayaBomba, alt: 'myasnayaBomba', price: 689, title: 'myasnaya bomba', weight: 520 },
-  { src: superSyrnaya, alt: 'superSyrnaya', price: 550, title: 'super syrnaya', weight: 512 },
-  { src: sytnyi, alt: 'sytnyi', price: 639, title: 'sytnyi', weight: 580 },
-  { src: tyajeluiUdar, alt: 'tyajeluiUdar', price: 480, title: 'myasnaya bomba', weight: 420 },
-  { src: vechnayaClassika, alt: 'vechnayaClassika', price: 450, title: 'vechnaya classika', weight: 450 },
-  { src: italyanski, alt: 'italyanski', price: 560, title: 'italyanski', weight: 510 },
+  { src: myasnayaBomba, alt: 'Мясная бомба', price: 689, title: 'Мясная бомба', weight: 520 },
+  { src: superSyrnaya, alt: 'Супер сырный', price: 550, title: 'Супер сырный', weight: 512 },
+  { src: sytnyi, alt: 'Сытный', price: 639, title: 'Сытный', weight: 580 },
+  { src: tyajeluiUdar, alt: 'Тяжелый удар', price: 480, title: 'Тяжелый удар', weight: 420 },
+  { src: vechnayaClassika, alt: 'Вечная классика', price: 450, title: 'Вечная классика', weight: 450 },
+  { src: italyanski, alt: 'Итальянский', price: 560, title: 'Итальянский', weight: 510 },
 ];
 
 export default burgers;
